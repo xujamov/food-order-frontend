@@ -6,7 +6,7 @@ import axios from "axios";
 // axios.defaults.withCredentials = true
 
 const Axios = axios.create({
-    baseURL: 'http://localhost:8081/api',
+    baseURL: 'https://restaurant-ordering-system.onrender.com/api',
     headers: { 'Content-Type': 'application/json' },
 })
 
