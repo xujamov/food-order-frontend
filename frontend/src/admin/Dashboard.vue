@@ -11,7 +11,7 @@
         <thead>
         <tr>
           <th>Bill Id</th>
-          <th>User Id</th>
+          <th>Table</th>
           <th>Phone</th>
           <th>Address</th>
           <th>When</th>
