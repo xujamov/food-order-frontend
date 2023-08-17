@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2563abd-40e5-43a0-b5b2-c1480aad6f8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/services/axios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/axios.service.js" afterDir="false" />
+    <list default="true" id="a2563abd-40e5-43a0-b5b2-c1480aad6f8c" name="Changes" comment="Axios allow also without firebase authentication">
+      <change afterPath="$PROJECT_DIR$/frontend/frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Menu.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +59,16 @@
       <option name="presentableId" value="Default" />
       <updated>1688791930109</updated>
       <workItem from="1688791931322" duration="3354000" />
-      <workItem from="1692274155323" duration="3222000" />
+      <workItem from="1692274155323" duration="4591000" />
     </task>
+    <task id="LOCAL-00001" summary="Axios allow also without firebase authentication">
+      <created>1692277536939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692277536939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Axios allow also without firebase authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Axios allow also without firebase authentication" />
   </component>
 </project>
