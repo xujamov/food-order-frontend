@@ -164,7 +164,7 @@
                         <div class="box">
                             <a href="" class="fas fa-heart"></a>
                             <div class="image">
-                                <img :src="require(`../assets/images/${f.food_src}`)" alt="" />
+                                <img :src="require(`https://restaurant-ordering-system.onrender.com/api/image/${f.food_src}`)" alt="" />
                             </div>
                             <div class="content">
                                 <h3>{{ f.food_name }}</h3>
