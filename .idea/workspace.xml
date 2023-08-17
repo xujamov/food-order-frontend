@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2563abd-40e5-43a0-b5b2-c1480aad6f8c" name="Changes" comment="UI show food changes">
+    <list default="true" id="a2563abd-40e5-43a0-b5b2-c1480aad6f8c" name="Changes" comment="UI show food image changes">
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Menu.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688791930109</updated>
       <workItem from="1688791931322" duration="3354000" />
-      <workItem from="1692274155323" duration="4905000" />
+      <workItem from="1692274155323" duration="6885000" />
     </task>
     <task id="LOCAL-00001" summary="Axios allow also without firebase authentication">
       <created>1692277536939</created>
@@ -74,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692278892752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UI show food image changes">
+      <created>1692279220472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692279220472</updated>
+    </task>
+    <task id="LOCAL-00004" summary="UI show food image changes">
+      <created>1692279344139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692279344139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Axios allow also without firebase authentication" />
     <MESSAGE value="UI show food changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI show food changes" />
+    <MESSAGE value="UI show food image changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI show food image changes" />
   </component>
 </project>
