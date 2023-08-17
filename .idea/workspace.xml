@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2563abd-40e5-43a0-b5b2-c1480aad6f8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/axios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/axios.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +35,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/doniyor/IdeaProjects/food-order-frontend",
+    "last_opened_file_path": "/home/doniyor/IdeaProjects/food-order-frontend-last/frontend",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688791930109</updated>
       <workItem from="1688791931322" duration="3354000" />
+      <workItem from="1692274155323" duration="3222000" />
     </task>
     <servers />
   </component>

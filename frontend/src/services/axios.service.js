@@ -7,7 +7,7 @@ import axios from "axios";
 
 const Axios = axios.create({
     baseURL: 'https://restaurant-ordering-system.onrender.com/api',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {'Content-Type': 'application/json'},
 })
 
 
@@ -15,17 +15,23 @@ const Axios = axios.create({
 Axios.interceptors.request.use(
     async (config) => {
 
-        await firebase.auth().currentUser.getIdToken(true).then( function (idToken) {
-            config.headers = {
-                ...config.headers,
-                Authorization: `Bearer ${idToken}`,
+        // Check if the user is authenticated with Firebase
+        const currentUser = firebase.auth().currentUser;
+
+        if (currentUser) {
+            try {
+                const idToken = await currentUser.getIdToken(true);
+                config.headers = {
+                    ...config.headers,
+                    Authorization: `Bearer ${idToken}`,
+                };
+            } catch (error) {
+                // Handle error
+                console.log('authError', error);
             }
-            // ...
-        }).catch(function (error) {
-            // Handle error
-            console.log('authError', error)
-        });
-        return config
+        }
+
+        return config;
     },
     (error) => Promise.reject(error)
 )
